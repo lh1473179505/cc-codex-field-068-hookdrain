@@ -1,0 +1,10 @@
+{"event_id": "E1", "type": "order.created", "order_id": "ORD-1", "event_time": "2026-05-01T10:00:00Z", "payload": {"status": "open", "total_cents": 1000, "items": [{"sku": "A", "qty": 1}]}}
+{"event_id": "E2", "type": "order.updated", "order_id": "ORD-9", "event_time": "2026-05-01T11:00:00Z", "payload": {"status": "paid", "total_cents": 5000, "items": [{"sku": "Z", "qty": 2}]}}
+{"event_id": "E3", "type": "order.created", "order_id": "ORD-2", "event_time": "2026-05-01T10:05:00Z", "payload": {"status": "open", "total_cents": 200, "items": [{"sku": "B", "qty": 1}]}}
+{"event_id": "E3", "type": "order.created", "order_id": "ORD-2", "event_time": "2026-05-01T10:05:00Z", "payload": {"status": "open", "total_cents": 200, "items": [{"sku": "B", "qty": 1}]}}
+{"event_id": "E4", "type": "order.created", "order_id": "ORD-4", "event_time": "2026-05-01T10:10:00Z", "payload": {"status": "open", "total_cents": 400, "items": [{"sku": "C", "qty": 1}]}}
+{"event_id": "E5", "type": "order.updated", "order_id": "ORD-1", "event_time": "2026-05-01T10:20:00Z", "payload": {"status": "paid", "total_cents": 1200, "items": [{"sku": "A", "qty": 2}]}}
+{"event_id": "E6", "type": "order.updated", "order_id": "ORD-4", "event_time": "2026-05-01T10:30:00Z", "payload": {"status": "packed", "total_cents": 400, "items": [{"sku": "C", "qty": 1}]}}
+{"event_id": "E7", "type": "order.created", "order_id": "ORD-9", "event_time": "2026-05-01T10:50:00Z", "payload": {"status": "open", "total_cents": 1, "items": [{"sku": "Y", "qty": 1}]}}
+{"event_id": "E8", "type": "order.cancelled", "order_id": "ORD-4", "event_time": "2026-05-01T10:00:00Z", "payload": {"reason": "fraud"}}
+{"event_id": "E9", "type": "order.created", "order_id": "ORD-5", "event_time": "2026-05-01T12:00:00Z", "payload": {"status": "open", "total_cents": 50, "items": []}}

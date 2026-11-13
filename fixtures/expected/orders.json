@@ -1,0 +1,33 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-1",
+      "status": "paid",
+      "total_cents": 1200
+    },
+    {
+      "order_id": "ORD-2",
+      "status": "open",
+      "total_cents": 200
+    },
+    {
+      "order_id": "ORD-4",
+      "status": "cancelled",
+      "total_cents": 400
+    },
+    {
+      "order_id": "ORD-5",
+      "status": "open",
+      "total_cents": 50
+    },
+    {
+      "order_id": "ORD-9",
+      "status": "paid",
+      "total_cents": 5000
+    }
+  ],
+  "late_reasons": {
+    "ORD-9": "stale",
+    "ORD-4": "cancel_applied"
+  }
+}
